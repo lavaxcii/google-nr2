@@ -1,7 +1,5 @@
 * {
 
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 
 }
@@ -47,6 +45,53 @@ li {
   right: 0px;
   width: 100%;
   border: 5px solid black;  
+
+}
+
+.center {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  border: 5px solid purple;
+}
+
+.imgimg {
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 5px solid black;  
+
+}
+
+.searchb {
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 5px solid black; 
+
+}
+
+.buttons {
+
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 5px solid black; 
+
+}
+
+.text {
+
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 5px solid black; 
 
 }
 
