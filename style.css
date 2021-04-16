@@ -9,7 +9,7 @@ html {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  background-color: rgb(78, 31, 31);
+  background-color: rgb(172, 160, 160);
   /*height: auto;*/
 
 }
@@ -69,10 +69,39 @@ li {
 .searchb {
 
   display: flex;
+  flex-direction: row;
   justify-content: center;
   width: 100%;
-  border: 5px solid black; 
+  border: none; 
 
+}
+
+.searchb form {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.searchb button[type=submit] {
+
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.searchb input[type=text] {
+
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 17px;
+  border: none;
+  overflow: hidden;
 }
 
 .buttons {
