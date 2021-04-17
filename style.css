@@ -38,6 +38,26 @@ li {
 
 }
 
+a {
+
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+
+}
+
+a:hover {
+
+  text-decoration: underline;
+  color: rgb(112, 112, 112);
+  
+}
+
+#textLang {
+
+  color: blue;
+
+}
+
 .top {
 
   display: flex;
@@ -102,7 +122,8 @@ li {
 
 .searchb form:hover {
 
-  border: 1px solid black;
+  border: 1px solid rgb(218, 218, 218);
+  box-shadow: 2px 2px 4px 4px rgba(128, 128, 128, 0.2);
 
 }
 
@@ -127,6 +148,8 @@ li {
   border: none;
   background-color: inherit;
   overflow: hidden;
+  outline: none;
+
 }
 
 .buttons {
@@ -153,8 +176,8 @@ li {
 
 #gs:hover {
 
-  border: 1px solid black;
-  background-color: rgb(255, 250, 250);
+  border: 1px solid  rgb(218, 218, 218);
+  background-color: rgb(251, 240, 240);
 
 }
 
@@ -170,8 +193,8 @@ li {
 
 #lucky:hover {
 
-  border: 1px solid black;
-  background-color: rgb(255, 250, 250);
+  border: 1px solid  rgb(218, 218, 218);
+  background-color: rgb(251, 240, 240);
 
 }
 
@@ -205,16 +228,20 @@ li {
   justify-content: flex-start;
   width: 100%;
   padding-left: 14px;
-  border: 2px solid green;
+  padding: 5px;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  background-color: rgb(251, 240, 240);
 
 }
-
+ 
 #fText {
 
   margin: 7px;
   padding: 4px;
+  padding-left: 10px;
   font-size: 14px;
   border: none;
+  color: rgb(112, 112, 112);
 
 }
 
@@ -222,11 +249,11 @@ li {
 
   display: flex;
   justify-content: flex-start;
-  padding: 10px;
+  padding: 13px;
   padding-left: 30px;
   width: 50%;
   font-size: 14px;
-  border: 2px solid black;
+  background-color: rgb(251, 240, 240);
 
 }
 
@@ -234,10 +261,10 @@ li {
 
   display: flex;
   justify-content: flex-end;
-  padding: 10px;
+  padding: 13px;
   padding-right: 30px;
   width: 50%;
   font-size: 14px;
-  border: 2px solid rgb(84, 5, 5);
+  background-color: rgb(251, 240, 240);
 
 }
