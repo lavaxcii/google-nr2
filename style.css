@@ -99,7 +99,7 @@ a:hover {
 
  #icon1:hover, #icon2:hover {
 
-  background-color:rgb(251, 240, 240);
+  background-color: #F2F2F2;
 
  }
 
@@ -142,8 +142,6 @@ a:hover {
   border: 1px solid rgb(206, 206, 206);
   border-radius: 20px;
   width: 550px;
-  /* ??? suddenly, width in px works now ??? 
-  contemplate upon min-width and resizing */
   height: 45px;
   resize: horizontal;
 
@@ -173,6 +171,7 @@ a:hover {
   border: none;
   cursor: pointer;
   background-color: inherit;
+  color: rgb(160, 160, 160);
 
 }
 
@@ -206,15 +205,14 @@ a:hover {
   height: 35px;
   width: 137px;
   border-radius: 5px;
-
-  /* both #gs and #lucky increase height only applying height in #gs? */
+  background-color: #F2F2F2;
 
 }
 
 #gs:hover {
 
   border: 1px solid  rgb(218, 218, 218);
-  background-color: rgb(251, 240, 240);
+  background-color: #F2F2F2;
 
 }
 
@@ -225,13 +223,14 @@ a:hover {
   width: 137px;
   margin: 5px;
   border-radius: 5px;
+  background-color: #F2F2F2;
 
 }
 
 #lucky:hover {
 
   border: 1px solid  rgb(218, 218, 218);
-  background-color: rgb(251, 240, 240);
+  background-color: #F2F2F2;
 
 }
 
@@ -267,7 +266,7 @@ a:hover {
   padding-left: 14px;
   padding: 5px;
   border-bottom: 1px solid rgb(218, 218, 218);
-  background-color: rgb(251, 240, 240);
+  background-color: #F2F2F2;
 
 }
  
@@ -291,7 +290,7 @@ a:hover {
   padding-left: 30px;
   width: 50%;
   font-size: 14px;
-  background-color: rgb(251, 240, 240);
+  background-color: #F2F2F2;
   
 
 }
@@ -304,7 +303,7 @@ a:hover {
   padding-right: 30px;
   width: 50%;
   font-size: 14px;
-  background-color: rgb(251, 240, 240);
+  background-color: #F2F2F2;
 
 }
 
@@ -313,6 +312,14 @@ a:hover {
   .fLeft, .fRight {
     width: 100%;
     justify-content: center;
+  }
+
+}
+
+@media screen and (min-height: 650px) {
+
+  .imgimg {
+    margin-top: 16%;
   }
 
 }
