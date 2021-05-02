@@ -3,3 +3,4 @@ Google landing page finished!
 Finished and polished complete design in HTML and CSS.
 <3
 Added minor changes (see commit-comments).
+Live preview: https://lavaxcii.github.io/google-nr2/
